@@ -526,16 +526,16 @@ this is the case with Microsoft Windows VirtualFree(MEM_DECOMMIT) */
 
 #define MYSQL_VERSION_MAJOR 11
 #define MYSQL_VERSION_MINOR 4
-#define MYSQL_VERSION_PATCH 7
+#define MYSQL_VERSION_PATCH 8
 #define MYSQL_VERSION_EXTRA ""
 
 #define PACKAGE "mysql"
 #define PACKAGE_BUGREPORT ""
 #define PACKAGE_NAME "MySQL Server"
-#define PACKAGE_STRING "MySQL Server 11.4.7"
+#define PACKAGE_STRING "MySQL Server 11.4.8"
 #define PACKAGE_TARNAME "mysql"
-#define PACKAGE_VERSION "11.4.7"
-#define VERSION "11.4.7"
+#define PACKAGE_VERSION "11.4.8"
+#define VERSION "11.4.8"
 #define PROTOCOL_VERSION 10
 #define PCRE2_CODE_UNIT_WIDTH 8
 
@@ -549,7 +549,6 @@ this is the case with Microsoft Windows VirtualFree(MEM_DECOMMIT) */
 #ifndef EMBEDDED_LIBRARY
 /* #undef WSREP_INTERFACE_VERSION */
 /* #undef WITH_WSREP */
-/* #undef WSREP_PROC_INFO */
 #endif
 
 #if !defined(__STDC_FORMAT_MACROS)
